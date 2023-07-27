@@ -3,12 +3,9 @@ title: 加國「港人救生艇」計劃今起申請
 date: 2021-02-08 00:00:00 +0800
 last_modified_at : 2021-02-08 00:00:00 +0800
 categories: [新聞]
-tags: [Markdown, Cheat Sheet]
+tags: [IRCC]
 pin: false
-math: true
-mermaid: true
-img_path: /public/images/20230301/
-folder: home
+folder: news
 ---
 
 ## 加國「港人救生艇」計劃今起申請

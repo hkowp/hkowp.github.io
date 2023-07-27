@@ -34,6 +34,14 @@
                 {{ site.data.locales[include.lang].tabs[item] | default: page.title }}
               </a>
             </span>
+
+          {% elsif page.layout == 'post' %}
+            <span>
+              <a href="{{ page.folder | relative_url }}">
+                {{ site.data.locales[include.lang].tabs[page.folder] | default: page.folder }}
+              </a>
+            </span>
+            
           {% endif %}
         {% endfor %}
       {% endif %}

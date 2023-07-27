@@ -11,13 +11,19 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: 首頁
+  news: 新聞
   owp: OWP
   streama: Stream A
   streamb: Stream B
+  before: 移加事前
+  after: 移加剛到埗
+  life: 移加生活
   categories: 分類
   tags: 標籤
   archives: 封存
   about: 關於
+  glossary: 詞彙表
+
 
 # the text displayed in the search bar & search results
 search:

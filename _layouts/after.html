@@ -5,8 +5,8 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where_exp: 'item', 'item.pin != true and item.folder == "streama"' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true and item.folder == "streamb"' %}
+{% assign pinned = site.posts | where_exp: 'item', 'item.pin != true and item.folder == "after"' %}
+{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true and item.folder == "after"' %}
 
 {% assign posts = '' | split: '' %}
 
@@ -42,7 +42,7 @@ refactor: true
 
 <div id="post-list">
   {% for post in posts %}
-    {% if post.folder == 'streama' %}
+    {% if post.folder == 'owp' %}
     <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
         {% if post.image %}
