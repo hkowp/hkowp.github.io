@@ -42,7 +42,7 @@ refactor: true
 
 <div id="post-list">
   {% for post in posts %}
-    {% if post.folder == "home" %}
+    {% if post.folder == 'streama' %}
     <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">
         {% if post.image %}

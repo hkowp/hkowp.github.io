@@ -22,7 +22,13 @@
             </span>
 
           {% elsif forloop.last %}
-            {% if page.collection == 'tabs' %}
+            {% if paths.size == 0 or page.layout == 'owp' %}
+              <span>{{ site.data.locales[include.lang].tabs.owp | upcase }}</span>
+            {% elsif paths.size == 0 or page.layout == 'streama' %}
+              <span>{{ site.data.locales[include.lang].tabs.streama | upcase }}</span>
+            {% elsif paths.size == 0 or page.layout == 'streamb' %}
+              <span>{{ site.data.locales[include.lang].tabs.streamb | upcase }}</span>
+            {% elsif page.collection == 'tabs' %}
               <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
             {% else %}
               <span>{{ page.title }}</span>
