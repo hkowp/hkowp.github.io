@@ -34,21 +34,21 @@
     </li>
     <!-- OWP -->
     <li class="nav-item{% if page.layout == 'owp' %}{{ " active" }}{% endif %}">
-      <a href="{{ '/owp/' | relative_url }}" class="nav-link">
+      <a href="{{ '/owp' | relative_url }}" class="nav-link">
         <i class="fa-fw fas fa-file-pen"></i>
         <span>{{ site.data.locales[include.lang].tabs.owp | upcase }}</span>
       </a>
     </li>
     <!-- Stream A -->
     <li class="nav-item{% if page.layout == 'streama' %}{{ " active" }}{% endif %}">
-      <a href="{{ '/streama/' | relative_url }}" class="nav-link">
+      <a href="{{ '/streama' | relative_url }}" class="nav-link">
         <i class="fa-fw fas fa-school"></i>
         <span>{{ site.data.locales[include.lang].tabs.streama | upcase }}</span>
       </a>
     </li>
     <!-- Stream B -->
     <li class="nav-item{% if page.layout == 'streamb' %}{{ " active" }}{% endif %}">
-      <a href="{{ '/streamb/' | relative_url }}" class="nav-link">
+      <a href="{{ '/streamb' | relative_url }}" class="nav-link">
         <i class="fa-fw fas fa-city"></i>
         <span>{{ site.data.locales[include.lang].tabs.streamb | upcase }}</span>
       </a>
