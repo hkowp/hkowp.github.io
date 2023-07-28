@@ -5,7 +5,7 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where_exp: 'item', 'item.pin != true and item.folder == "before"' %}
+{% assign pinned = site.posts | where_exp: 'item', 'item.pin == true and item.folder == "before"' %}
 {% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true and item.folder == "before"' %}
 
 {% assign posts = '' | split: '' %}

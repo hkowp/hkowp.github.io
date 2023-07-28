@@ -1,23 +1,19 @@
 ---
-title: 加國取消優先處理港人申請 申PR時間恐大幅延長至20月 申學簽需7周 在港申工簽21周
-date: 2023-07-24 00:00:00 +0800
-last_modified_at : 2023-07-24 00:00:00 +0800
+title: 加拿大取消優先處理香港人永居與學生簽證等申請　料審批時間增長
+date: 2023-07-26 00:00:00 +0800
+last_modified_at : 2023-07-26 00:00:00 +0800
 categories: [新聞]
-tags: [IRCC]
+tags: [新聞]
 pin: true
 folder: news
 ---
 
-加拿大移民、難民及公民部（IRCC）7月24日宣布更新安排，涉及香港人家庭團聚、學生和永久居留（PR）優先處理的移居或移民申請部分被刪除，即香港居民不再享有優先處理權。此意味審批時間或會延長。此前，加拿大推出「香港人救生艇」計劃時，亦連帶優先處理港人申請；如今優待被取消，據IRCC官網顯示，境內或境外申請學簽平均需時7周、在港申工簽需時21周，如屬「人道主義和酌情案例」申請PR（即救生艇Stream A及Stream B），平均需時20個月。
+新聞來源：[香港01 官網](https://www.hk01.com/article/923404?utm_source=01articlecopy&utm_medium=referral)
 
-加拿大2021年2月推出「香港人救生艇」計劃，首先公布為提供開放式工簽（Open Work Permit, OWP）申請，同年中推出Stream A及Stream B移民途徑，亦連帶優先處理港人申請，包括學簽、工簽、PR等；其時，港人申請學簽或工簽，可能只需數周時間，申請PR則只需約4至6個月，比「正常隊伍」快了數倍時間。
+加拿大2021年推出給予香港人的「救生艇計劃」，同時也優先處理來自香港居民的學生簽證、永久居留等申請，不過加拿大移民、難民及公民部（IRCC）2023年7月24日在網站發布更新公告指，不再優先處理這些申請。此意味審批時間或會延長。
 
-今年7月初，移民部宣布撤銷循Stream B申請PR時的學歷要求，令大批此前不符申請資格而身處加拿大境內港人如釋重負；到7月尾的7月24日，IRCC宣布取消涉及香港人家庭團聚、學生和PR優先處理的移居或移民申請，即香港居民不再享有優先處理權。
+加拿大移民、難民及公民部7月24日就「支持香港居民來加拿大特別措施指引」發表[更新公告](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/updates/2023-special-measures-hong-kong.html)，指撤銷在涉及家庭團聚、學生和永久居留的優先處理部份，香港居民不再享有優先處理權。
 
-據IRCC官網顯示，正常隊伍的「人道主義和酌情案例（Humanitarian and compassionate cases）」申請PR（救生艇Stream A及Stream B亦包括在內），平均需時20個月。境內或境外申請學簽平均需時7周、在港申工簽需時21周（加拿大境內網上申請平均需時147天，境內紙本申請則為14天）。
+在舊版的「支持香港居民來加拿大特別措施指引」[公告](https://web.archive.org/web/20230603150807/https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/service-delivery/hong-kong.html)上，例如在學生簽證部份，網站列明「無論申請人身在何處，處理網絡（processing networks）應優先處理香港特別行政區與BNO護照持有人提出的留學許可申請」，如今的修訂意味不再優先處理香港居民的申請。
 
-替加拿大境內（於魁省以外居住）配偶提出申請則需11個月，替境外（於魁省以外居住）配偶提出申請則需14個月。
-
-經濟類移民申請方面，據IRCC官網顯示，港人較熱門選擇如省提名（PNP），以網上申請Express Entry（EE）平均需時9個月（非網上申請則為18個月）；聯邦技術移民（Skilled workers federal）以網上申請EE平均需時7個月；初創簽證（Start-up visa, SUV）則平均需時37個月。
-
-新聞來源：[IRCC官網](https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/operational-bulletins-manuals/updates/2023-special-measures-hong-kong.html)
+加拿大自2021年針對香港人推出「救生艇計劃」，包括為港人設立的開放式工作簽證計劃（OWP），並且提供2條供香港人導向永久居留（Permanent residence，簡稱PR）的新途徑，即Stream A與Stream B。
