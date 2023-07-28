@@ -39,12 +39,25 @@ refactor: true
     {% assign posts = posts | push: default[i] %}
   {% endfor %}
 {% endif %}
+
+{% assign currentdate = site.time | date: '%y-%m-%d' %}
+
+{% assign owp_deadline = '2025-02-07' %}
+{% assign owp_deadline_startdays = currentdate | date: "%s" | divided_by: 86400 %}
+{% assign owp_deadline_endedays = owp_deadline | default: 'now' | date: "%s" | divided_by: 86400 %}
+{% assign owp_deadline_diffdays = owp_deadline_endedays | minus: owp_deadline_startdays %}
+
+{% assign streamab_deadline = '2026-08-31' %}
+{% assign streamab_deadline_startdays = currentdate | date: "%s" | divided_by: 86400 %}
+{% assign streamab_deadline_endedays = streamab_deadline | default: 'now' | date: "%s" | divided_by: 86400 %}
+{% assign streamab_deadline_diffdays = streamab_deadline_endedays | minus: streamab_deadline_startdays %}
+
 <div>
   <h2>介紹</h2>
   <p>2021年2⽉8⽇，加拿⼤政府將正式開放名為“香港救生艇”（HONG KONG PATHWAY）的特殊通道，為香港年輕⼈提供申請3年加拿⼤⼯作簽證的機會。該政策是為了吸引香港年輕⼈移⺠加拿⼤。 對於已經在加拿⼤境內的香港居⺠，包括訪客、學⽣和⼯⼈，都可以從加拿⼤境內進⾏網申新的開放試⼯作簽證。從加拿⼤境外申請的⼈，必須遵守加拿⼤的冠狀病毒安全措施，包括旅⾏限制，強制隔離和測試（如需入 境需要滿⾜豁免條件才可以，如已經在加拿⼤找到⼯作等）。 移⺠局指出，香港年輕⼈能夠憑藉著三年的⼯作簽證在加拿⼤積累到⼀定⼯作經驗後申請加拿⼤永久居⺠。同時，申請⼈的配偶或同居伴侶以及他們的受撫養⼦女也可以酌情申請加拿⼤學習或⼯作簽證。</p>
   <h2>申請截止日期</h2>
-  <p>港人開放工作簽證 (HKOWP) - 截止日期 2025年2月7日 [你仲有<b id="hkowp"></b>嘅時間去申請]</p>
-  <p>Stream A & B: - 截止日期 2026年8月31日 [你仲有<b id="streamab"></b>嘅時間去申請]</p>
+  <p>港人開放工作簽證 (HKOWP) - 截止日期 2025年2月7日 [你仲有<b>{{owp_deadline_diffdays}}日</b>嘅時間去申請]</p>
+  <p>Stream A & B: - 截止日期 2026年8月31日 [你仲有<b>{{streamab_deadline_diffdays}}日</b>嘅時間去申請]</p>
   <h2>申請條件</h2>
   <h3>3年港人開放工作簽證(HKOWP)</h3>
   <ul>
@@ -150,49 +163,3 @@ refactor: true
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
-
-<script>
-  // Set the date we're counting down to
-  var hkowp = new Date("Feb 07, 2025 23:59:59").getTime();
-  var streamab = new Date("Aug 31, 2026 23:59:59").getTime();
-  
-  // Update the count down every 1 second
-  var x = setInterval(function() {
-  
-    // Get today's date and time
-    var now = new Date().getTime();
-  
-    // Find the distance between now and the count down date
-    var hkowpdistance = hkowp - now;
-    var streamabdistance = streamab - now;
-  
-    // Time calculations for days, hours, minutes and seconds
-    var hkowpdays = Math.floor(hkowpdistance / (1000 * 60 * 60 * 24));
-    var hkowphours = Math.floor((hkowpdistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var hkowpminutes = Math.floor((hkowpdistance % (1000 * 60 * 60)) / (1000 * 60));
-    var hkowpseconds = Math.floor((hkowpdistance % (1000 * 60)) / 1000);
-  
-    var streamabdays = Math.floor(streamabdistance / (1000 * 60 * 60 * 24));
-    var streamabhours = Math.floor((streamabdistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var streamabminutes = Math.floor((streamabdistance % (1000 * 60 * 60)) / (1000 * 60));
-    var streamabseconds = Math.floor((streamabdistance % (1000 * 60)) / 1000);
-
-    // Display the result in the element with id="demo"
-    document.getElementById("hkowp").innerHTML = hkowpdays + "日 ";
-    document.getElementById("streamab").innerHTML = streamabdays + "日 ";
-  
-    // If the count down is finished, write some text
-    if (hkowpdistance < 0) {
-      clearInterval(x);
-      document.getElementById("hkowp").innerHTML = "已截止";
-    }
-
-    if (streamabdistance < 0) {
-      clearInterval(x);
-      document.getElementById("streamab").innerHTML = "已截止";
-    }
-
-
-
-  }, 1000);
-  </script>
