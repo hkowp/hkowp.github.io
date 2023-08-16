@@ -1,0 +1,15 @@
+- Apply Can mobile number 無簽約 
+- Home internet 
+-open Canadian account ✅
+- apply Home insurance
+- Medical insurance ✅ 
+- Got “Presto” transportation card 
+- Buy furniture, TV 
+- Apply Social insurance number ✅ (SIN number) employer use it to report tax✅ 
+- Apply credit card 💳 after obtain SIN# ✅ 
+- Library card app 
+- Buying furniture 
+- Opened IB account done ✅ trade FX 🙃
+- Driving license application (need local mobile no.) 
+- 1st 筆試
+- Apply Ontario Health Insurance Service （OHIP）看醫生free（need hv a job?)

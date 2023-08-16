@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-spell-check
 order: 8
+title: 詞彙表
 ---
 
 |OWP|Open Work Permit - 開放工作簽證|
