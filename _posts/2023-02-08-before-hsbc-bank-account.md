@@ -30,8 +30,6 @@ folder: before
 
 完成後, 你會收到 HSBC Bank Canada 電郵確認, 電郵如下:
 
-> YYYY-MM-DD
->
 > Dear XXXX YYYY ZZZZ,
 >
 > Thank you for your application. To support your immigration needs, we are reviewing the documents you submitted. If we need more information, an International Case Manager will contact you within 3-5 business days.
@@ -70,8 +68,6 @@ folder: before
 
 HSBC Bank Canada 電郵如下:
 
-> YYYY-MM-DD
->
 > Dear XXXX YYYY ZZZZ,
 >
 > We're happy to confirm your HSBC Advance Account is now open.
